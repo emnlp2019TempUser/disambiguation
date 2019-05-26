@@ -2,7 +2,12 @@
 
 # prepare data
 
-Please download data [here](https://static.aminer.cn/misc/na-data-kdd18.zip) (or via [OneDrive](https://1drv.ms/u/s!AjyjU4F_oXtllmRV9aFPN1bpkEBY)). Unzip the file and put the _data_ directory into project's data dictionary directory.
+```shell
+
+    chmod +x preparedata.sh
+    ./preparedata.sh
+
+```
 
 
 # preprocess
