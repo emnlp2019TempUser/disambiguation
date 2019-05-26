@@ -10,7 +10,7 @@ from util import setting
 
 wf = codecs.open(join(setting.resultPath, 'result.txt'), 'w', encoding='utf-8')
 
-authornames = ['Hongbin Li', 'Hua Bai', 'Kexin Xu', 'Lin Huang', 'Lu Han', 'Min Zheng', 'Min Zheng', 'Qiang Shi', 'Rong Yu', 'Tao Deng', 'Wei Quan', 'Xu Xu', 'Xudong Zhang', 'Yanqing Wang', 'Yong Tian']
+authornames = ['Hongbin Li', 'Hua Bai', 'Kexin Xu', 'Lin Huang', 'Lu Han', 'Min Zheng', 'Qiang Shi', 'Rong Yu', 'Tao Deng', 'Wei Quan', 'Xu Xu', 'Yanqing Wang', 'Yong Tian']
 
 for authorname in authornames:
     wf.write('{} '.format(authorname))
